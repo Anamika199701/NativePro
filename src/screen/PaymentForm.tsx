@@ -20,72 +20,7 @@ const PaymentForm = () => {
                 flex: 1,
             }}
         >
-            <StepBar />
-            <ScrollView>
-                <View style={{
-                    margin: 10
-                }}>
-                    <View>
-                        <Text>No. of Cloths :</Text>
-                        <TextInput
-                            style={{
-                                borderWidth: 1,
-                                borderColor: Colors.GRAYHARD,
-                                borderRadius: 10,
-                                height: 50,
-                                paddingHorizontal: 10
 
-                            }}
-                            placeholder='Enter No. of Cloths'
-                        />
-                    </View>
-                    <View>
-                        <Text>Cloth Types :</Text>
-                        <TextInput
-                            style={{
-                                borderWidth: 1,
-                                borderColor: Colors.GRAYHARD,
-                                borderRadius: 10,
-                                height: 50,
-                                paddingHorizontal: 10
-
-                            }}
-                            placeholder='Enter Cloth Types'
-                        />
-                    </View>
-                    <View>
-                        <Text>Delivery Time :</Text>
-                        <TextInput
-                            style={{
-                                borderWidth: 1,
-                                borderColor: Colors.GRAYHARD,
-                                borderRadius: 10,
-                                height: 50,
-                                paddingHorizontal: 10
-
-                            }}
-                            placeholder='Enter Delivery Time'
-                        />
-                    </View>
-                    <View>
-                        <Text>Flat No :</Text>
-                        <TextInput
-                            style={{
-                                borderWidth: 1,
-                                borderColor: Colors.GRAYHARD,
-                                borderRadius: 10,
-                                height: 50,
-                                paddingHorizontal: 10
-
-                            }}
-                            placeholder='Enter Flat no.'
-                        />
-                    </View>
-                    <Button title='Submit' />
-
-                </View>
-
-            </ScrollView>
 
         </View>
 

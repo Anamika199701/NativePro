@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, TouchableOpacity, View } from 'react-native';
 import BottomNav from '../nav/BottomNav';
 import Colors from '../assets/Colors';
-import { UseDispatch, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { userLogout } from '../redux/action';
 import { logOutUser } from '../redux/storetool/userSlice';
 

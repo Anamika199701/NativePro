@@ -23,7 +23,6 @@ const Details = () => {
     ];
 
     const onPress = () => {
-        navigation.navigate("Form")
     }
 
     return (

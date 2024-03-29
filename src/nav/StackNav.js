@@ -10,13 +10,11 @@ import Details from '../screen/Details';
 import Form from '../screen/Form';
 import OrderForm from '../screen/OrderForm';
 import PaymentForm from '../screen/PaymentForm';
-import TabNav from './TabNav';
 
 const Stack = createStackNavigator();
 const StackNav = () => {
     return(
         <Stack.Navigator>
-            {/* <Stack.Screen name="Home" component={TabNav} options={{headerShown:false}}/> */}
             <Stack.Screen name="Home" component={Home}/>
             <Stack.Screen name="About" component={About}/>
             <Stack.Screen name="Services" component={Services}/>
