@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268853776747",
+    "project_id": "nativepro-25135",
+    "storage_bucket": "nativepro-25135.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268853776747:android:70a1777ca1a1e8dd2afc2e",
+        "android_client_info": {
+          "package_name": "com.nativepro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4y5Psi-PmArj8a41NCLH4CPUSfmi7LJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
