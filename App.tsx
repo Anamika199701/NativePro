@@ -7,8 +7,8 @@ import AuthNav from './src/nav/AuthNav';
 import { useSelector } from 'react-redux';
 
 function App(): React.JSX.Element {
-  const userData = useSelector((state) => state.reducer);
-  console.log(userData.isActive);
+  const userData = useSelector((state) => state.user);
+  console.log("userData", userData);
   const [isLogin, setIsLogin] = useState(userData.isActive);
   useEffect(
     () => {

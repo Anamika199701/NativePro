@@ -11,7 +11,7 @@ import { ThemeProvider } from './src/components/ThemeProvider';
 import MyStore from './src/redux/storetool/MyStore';
 
 const appRedux = () =>(
-    <Provider store={store}>
+    <Provider store={MyStore}>
         <ThemeProvider>
         <App/>
         </ThemeProvider>

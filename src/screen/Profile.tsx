@@ -4,11 +4,13 @@ import BottomNav from '../nav/BottomNav';
 import Colors from '../assets/Colors';
 import { UseDispatch, useDispatch } from 'react-redux';
 import { userLogout } from '../redux/action';
+import { logOutUser } from '../redux/storetool/userSlice';
 
 const Profile = () => {
     const dispatch = useDispatch();
     const handleLogout = () => {
-        dispatch(userLogout(false));
+        // dispatch(userLogout(false));
+        dispatch(logOutUser(false));
     }
     return (
         <View

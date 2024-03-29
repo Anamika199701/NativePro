@@ -4,16 +4,16 @@ import Colors from '../assets/Colors';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import { userLogin } from '../redux/action';
 import { useDispatch } from 'react-redux';
-import { addUser } from '../redux/storetool/UserSlice';
+import { addUser } from '../redux/storetool/userSlice';
 
 const Login = ({ navigation }) => {
     const dispatch = useDispatch();
     const handleLogin = () => {
-        dispatch(userLogin(true));
-        // const data = [{
-        //     isActive: true
-        // }]
-        // dispatch(addUser(data))
+        // dispatch(userLogin(true));
+        const data = {
+            isActive: true
+        }
+        dispatch(addUser(data));
     }
     return (
         <SafeAreaView style={{
